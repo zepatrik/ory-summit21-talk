@@ -16,7 +16,7 @@ const persistentState: {
 } = {
   indexv: 0,
   indexh: 0,
-  showNotes: false
+  showNotes: true
 }
 
 let reveal: Reveal
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
   runExampleClient()
 })
 
-document.addEventListener('keyup', ({ key, target }) => {
+document.addEventListener('keyup', ({ key }) => {
   if (key === 'q' && reveal) {
     reveal.configure({
       showNotes: (persistentState.showNotes = !persistentState.showNotes)
