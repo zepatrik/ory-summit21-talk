@@ -1,0 +1,16 @@
+version: v0.7.0-alpha.1
+
+serve:
+  read:
+    port: 4466
+  write:
+    port: 4467
+
+log:
+  level: info
+
+namespaces:
+  - name: files
+    id: 0
+
+dsn: memory

@@ -1,0 +1,26 @@
+<div
+  data-open-editor="handlers-3.ts"
+  data-open-editor-diff="handlers-2.ts"
+></div>
+
+<aside class="notes">
+  <ul>
+    <li>
+      instead: add read relation and automatically make owners also readers
+    </li>
+    <li>
+      in the future this would be solved by subject set rewrites
+      <a href="https://github.com/ory/keto/issues/263">issue #263</a>
+    </li>
+    <li>
+      <ul>
+        <li>rewrite would express that owner is an alias for read</li>
+        <li>
+          because it is defined on the top-level configuration, data will not
+          change when permissions change
+        </li>
+      </ul>
+    </li>
+    <li>current workaround: add tuples that represent that alias</li>
+  </ul>
+</aside>

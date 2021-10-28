@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Workshop: Design Complex Authorization with Ory Keto</title>
+  </head>
+  <body>
+    <div id="example-client">
+      <div id="example-client-form">
+        <label>
+          Username
+          <input type="text" id="example-client-username" />
+        </label>
+        <label>
+          Filename
+          <input type="text" id="example-client-filename" />
+        </label>
+        <label>
+          File Content
+          <input type="text" id="example-client-content" />
+        </label>
+        <button id="example-client-get" onclick="">GET</button>
+        <button id="example-client-post" onclick="">POST</button>
+        <div>
+          Request:
+          <pre
+            id="example-client-request"
+          ><code class="language-js"></code></pre>
+        </div>
+        <div>
+          Result:
+          <pre
+            id="example-client-result"
+          ><code class="language-txt"></code></pre>
+        </div>
+      </div>
+    </div>
+    <div id="render-reveal-here"></div>
+    <script src="app.bundle.js"></script>
+  </body>
+</html>
