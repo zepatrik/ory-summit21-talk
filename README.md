@@ -1,4 +1,4 @@
-# Slides and Example for the Ory Summit 21 Workshop: Design Complex Authorization with Ory Keto
+# Slides and Example for the [Ory Summit 21 Workshop: Design Complex Authorization with Ory Keto](https://www.youtube.com/watch?v=lGRMYkQrNb0)
 
 Please run `npm i` and `npm start` to launch the presentation servers, and then
 navigate to [http://localhost:9000](http://localhost:9000).
